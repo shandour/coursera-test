@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+   text-align: center;
+   font-weight: 600;
+   font-size: 175%;
+}
+
+h2 {
+   height: 30px;
+   width: 30%;
+   text-align: center;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   border: 1px solid black;
+   margin: 0px;
+}
+
+#container > div {
+  position: relative;
+  border: 1px solid black;
+  padding: 20px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+.bg-green {
+   background-color: green;
+}
+
+.bg-red {
+   background-color: red;
+}
+
+.bg-yellow {
+   background-color: yellow;
+}
+
+.bg-blue {
+   background-color: blue;
+}
+
+.bg-purple {
+   background-color: purple;
+}
+
+.bg-maroon {
+   background-color: maroon;
+}
+
+.row {
+   width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+	width: 32%;
+	margin: 0.66%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-2 {
+        float: left;
+        width: 48%;
+        margin: 1%;
+    }
+    .col-md-3 {
+        float: left;
+	width: 98%;
+        margin: 1%;
+    }
+}
+
