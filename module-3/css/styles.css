@@ -1,0 +1,43 @@
+.navbar-brand {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 2em;
+}
+
+.navbar-header .navbar-toggle {
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+#collapsable-nav ul {
+  text-align: center;
+}
+
+#collapsable-nav ul hr {
+  height: 2px;
+  margin: 2px;
+  background-color: black;
+}
+
+#collapsable-nav ul li:hover {
+  background-color: gray;
+  color: white;
+}
+
+.color1 {
+  background-color: #b0aabe;
+}
+
+.navbar .container-fluid {
+  border: 1px solid black;
+}
+
+
+@media (max-width: 767px) {
+  #collapsable-nav {
+    border: 1px solid black;
+    background-color: white;
+  }
+}
+
